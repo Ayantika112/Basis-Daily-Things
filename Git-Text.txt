@@ -1,0 +1,17 @@
+To connect out git with github  :-
+1.  git config --global user.name 'name'
+2.  git config --global user.email 'email'
+3.  git config --list (check name and email)
+
+
+To clone a project Git to Github :-
+1. git clone 'project path'
+
+To check git status :-
+1. git status (basically 4 type of status are there - untracked , modified , unmodified , staged)
+
+After Modify a project Github Project and want to update Git to Github:-
+1. git add "file name" 
+      or 
+   git add . 
+2. git commit -m "message"
