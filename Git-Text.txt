@@ -4,14 +4,36 @@ To connect out git with github  :-
 3.  git config --list (check name and email)
 
 
+---------------------------------------- Github to Git ( project start from Github to Git) ------------------------------------------------
 To clone a project Git to Github :-
 1. git clone 'project path'
 
 To check git status :-
 1. git status (basically 4 type of status are there - untracked , modified , unmodified , staged)
 
-After Modify a project Github Project and want to update Git to Github:-
+After Modify the project and save to the git permanently :-
 1. git add "file name" 
       or 
    git add . 
 2. git commit -m "message"
+
+Upload local repo content to remote repo :-
+1.git push origin main
+
+
+---------------------------------------- Git to Github ( project start from local machine to remote machin means Github) ------------------------------------------------
+1. git status
+2. git add
+3. git commit -m 'add initial file'
+4. git status
+
+now add Github from Git
+1. Create a repo on Github [git init ( init - used to create a new git repo)]
+2. git remote add origin 'link' [ origin = branch name , we can use any name || link = Github repo link ]
+3. git remote -v ( to varify remote )
+4. git branch ( to check branch )
+5. git branch -M main ( to rename branch )
+6. git push origin main
+
+
+---------------------------------------- Branch Commands ------------------------------------------------
